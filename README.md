@@ -1,10 +1,10 @@
 # pyrems
 
-A simple Python CLI tool for remembering and managing your most important bash commands.
+A simple Python CLI tool for remembering and managing your bash commands.
 
 ## What it does
 
-`pyrems` (Python Remember Shell) helps you save, organize, and quickly access important commands you don't want to lose. Instead of digging through your bash history or losing commands when switching computers, `pyrems` stores your commands with optional notes and tracks how often you use them.
+`pyrems` (Python Remember) helps you save, organize, and quickly access important commands you don't want to lose. Instead of digging through your bash history or losing commands when switching computers, `pyrems` stores your commands with optional notes and tracks how often you use them.
 
 ## Key Features
 
@@ -40,8 +40,4 @@ pyrems list
 - `pyrems store` - Store a command (usually called by the `rem` bash function)
 - `pyrems list` - Display all saved commands in a table
 - `pyrems install` - Set up configuration and files
-
----
-
-Never forget that useful command again! 🧠
 
