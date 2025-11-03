@@ -27,10 +27,15 @@
 ## Project Structure
 
 **cli/** - Contains CLI logic only. Command implementation goes in `handlers.py`.
+
 **core/** - Contains small, function-specific logic for readability. Not designed for reusability. Application-wide common functions go in `core/common.py`.
-**managers/** - Interfaces for external libraries and applications (git, sqlite, etc.). Only managers communicate with external applications directly.
+
+**managers/** - Interfaces for external libraries and applications. Only managers communicate with external applications directly.
+
 **utils.py** - Universal logic unrelated to the project domain.
+
 **handlers.py** - implementation of the each command logic. Separated with UI
+
 **validation.py** - validation logic
 
 If the the code is small enough, change directory into the file. Like from `core/` to `core.py`
@@ -43,4 +48,3 @@ Managers interface with external applications. Core functions use managers. CLI 
 - **uv** for running the project
 - **pytest** for testing
 - **click** for CLI
-- **ponyorm** for database

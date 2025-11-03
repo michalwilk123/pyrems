@@ -1,8 +1,8 @@
 drawer() {
     if [ "$1" = "list" ] || [ "$1" = "add" ]; then
-        python3 /home/michal/Programming/pyrems/drawer.py "$@"
+        python3 /home/user/path/to/pyrems/drawer.py "$@"
     else
-        local cmd=$(python3 /home/michal/Programming/pyrems/drawer.py "$@")
+        local cmd=$(python3 /home/user/path/to/pyrems/drawer.py "$@")
         if [ $? -eq 0 ] && [ -n "$cmd" ]; then
             history -s "$cmd"
             echo "$cmd"
