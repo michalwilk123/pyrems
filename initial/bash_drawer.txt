@@ -1,0 +1,2 @@
+docker ps -a --format 'table {{.Names}}\t{{.Status}}'
+find . -name '*.py' -type f
